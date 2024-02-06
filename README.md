@@ -1,6 +1,6 @@
 # Gut microbiome and vascular ageing in a multi-ethnic population - The HELIUS study
 
-This project, part of my PhD thesis, focus on the association between gut microbiota (GM) and vascular ageing (VA), evaluating the role of sex and ethnicity as potential effect modifiers.
+This project, part of my PhD thesis, focuses on the association between gut microbiota (GM) and vascular ageing (VA), evaluating the role of sex and ethnicity as potential effect modifiers.
 
 # 1. Rationale
 
@@ -15,6 +15,10 @@ Despite the growing evidence, unravelling the effects of the GM on VA, as well a
 To address the cross-sectional association between gut microbiota composition and vascular ageing traits and whether ethnicity and sex modify this association, using data from the HELIUS study.
 
 # 3. Methods
+
+Cross-sectional study using baseline information from the ongoing HEalthy Life In an Urban Setting (HELIUS) study collected between 2011 and 2015. The methods and cohort profile of the HELIUS study have been published elsewhere. Briefly, the HELIUS study is a prospective cohort study among six large ethnic groups living in Amsterdam, the Netherlands. The baseline included 24,789 participants (aged 18–70 years), representing Dutch, African Surinamese, South-Asian Surinamese, Ghanaian, Turkish and Moroccan origins. For the present study, we will include approximately 3,000 participants with available baseline information on gut microbiota profile, VA markers, as well as demographic and clinical variables of interest. 
+
+Fecal samples were collected and gut microbiome composition was determined using 16S rRNA sequencing. Different markers of VA will be considered. The Arteriograph system (Tensiomed Kft., Budapest, Hungary) was used to assess aortic pulse wave velocity (AoPWV), augmentation index (AIx), and CBP. The pulse pressure amplification (PPA) and reflection magnitude (RM), two novel and promising markers, were determined using the Nexfin™ device (Edwards Lifesciences BMEYE, Amsterdam, The Netherlands). Associations between GM composition and each VA marker will be assessed using linear regression models using the R package MaAsLin2, designed to estimate multivariable-adjusted associations between metadata and microbial features. When possible, VA markers will be dichotomized using the cut-off points reported in the literature. In these cases, we will fit logistic regression models. Final models will be adjusted for potential confounders based on the Directed Acyclic Graphs (DAG). 
 
 # 4. Analysis
 
